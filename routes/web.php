@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AdminController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +22,9 @@ Route::get('/index', [ProjectController::class, 'index'])->name('index');
 Route::get('/appointment', [ProjectController::class, 'appointment'])->name('appointment');
 Route::get('/schedulestiming', [ProjectController::class, 'schedulestiming'])->name('schedulestiming');
 Route::get('/contact', [ProjectController::class, 'contact'])->name('contact');
+
+
+
+////// Admin /////
+
+Route::get('/admin', [AdminController::class, 'index'])->name('admin');
