@@ -71,7 +71,7 @@
                 </li>
 
                 <li>
-                    <a href="{{route('index')}}">Randevu Al</a>
+                    <a href="{{route('appointment')}}">Randevu Al</a>
                 </li>
                 <li>
                     <a href="#" target="_blank">Admin</a>

@@ -9,9 +9,7 @@ class ProjectController extends Controller
 {
     public function index()
     {
-        $departments = Department::with('doctors')->get();
-
-        return view('projectPanel.pages.index', compact('departments'));
+        return view('projectPanel.pages.index');
     }
     public function appointment(){
         return view('projectPanel.pages.appointment');
