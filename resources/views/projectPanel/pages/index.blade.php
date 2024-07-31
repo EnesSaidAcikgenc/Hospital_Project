@@ -5,12 +5,12 @@
         <div class="container">
             <div class="banner-wrapper">
                 <div class="banner-header">
-                    <h6>We work to take care of your smile</h6>
-                    <h1>Great Smile For Healthy Lifestyle!</h1>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo</p>
-                    <a href="#" class="btn-yellow">Make an Appointment</a>
+                    <h6>Gülümsemenize özen göstermek için çalışıyoruz</h6>
+                    <h1>Sağlıklı Yaşam İçin Harika Gülümseme!</h1>
+                    <p>Çok yönlü bir anlayışla, tüm bu doğal hatalar, tam anlamıyla doğru bir şekilde, tüm verilerle
+                        birlikte, gerçek bir veri ve neredeyse güzel bir yaşam mimarisine sahip, açıklayıcı bir şekilde
+                        açıklanıyor.</p>
+                    <a href="{{route('appointment')}}" class="btn-yellow">Randevu Alın</a>
                 </div>
             </div>
         </div>
@@ -25,9 +25,9 @@
                                 <div class="service-icon">
                                     <img src="{{asset('assets/img/service1.jpg')}}" alt="">
                                 </div>
-                                <h3>Cosmetic Dentistry</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore ue
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                                <h3>Kozmetik Diş Hekimliği</h3>
+                                <p>Tüm bu doğal hataların bilincinde olarak, çok fazla bilgi ve mutlulukla, tam bir geri
+                                    dönüş elde etmek için, aynı şeyi icat etmek için bir şeyler yapın.</p>
                                 <div class="service-btn">
                                     <a href="#"><i class="fas fa-chevron-right"></i></a>
                                 </div>
@@ -42,9 +42,9 @@
                                 <div class="service-icon">
                                     <img src="{{asset('assets/img/service2.jpg')}}" alt="">
                                 </div>
-                                <h3>Quick Examination</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium mque
-                                    laudantium, totam rem aperiam, eaque ipsa error sit voluptatem.</p>
+                                <h3>Hızlı Muayene</h3>
+                                <p>Her şeyde çok yönlü bir hata var ve bu hatanın nedeni tamamen açık, tam bir geri
+                                    dönüş yok, aynı ipsa hatası da gönüllü.</p>
                                 <div class="service-btn">
                                     <a href="#"><i class="fas fa-chevron-right"></i></a>
                                 </div>
@@ -59,9 +59,10 @@
                                 <div class="service-icon">
                                     <img src="{{asset('assets/img/service3.jpg')}}" alt="">
                                 </div>
-                                <h3>Best Care</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lauda
-                                    ntium, totam rem aperiam, eaque ipsa quae ab illo iste natus.</p>
+                                <h3>En İyi Bakım</h3>
+                                <p>Tüm bu doğal hatalarla ilgili bilinçli olarak, tüm bunlar göz önünde
+                                    bulundurulduğunda, tam bir geri dönüş elde etmek için, her şey yolundayken aynı
+                                    ipsa.</p>
                                 <div class="service-btn">
                                     <a href="#"><i class="fas fa-chevron-right"></i></a>
                                 </div>
@@ -78,16 +79,16 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="left">
-                        <h6>Connecting with us</h6>
-                        <h2>We Are Providing A Very Good Care and Safety!</h2>
+                        <h6>bizimle bağlantı kurun</h6>
+                        <h2>Çok İyi Bir Bakım ve Güvenlik Sağlıyoruz!</h2>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="right">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae
-                            dicta sunt explicabo, sed ut perspiciatis unde omnis iste natus error.</p>
-                        <a href="#" class="btn-yellow">Make an Appointment</a>
+                        <p>Çok yönlü bir doğal hatayla, tam bir açıklayıcı bilgiyle, tamamen gerçek bir hatayla, gerçek
+                            bir veri ve yarı mimari bir yaşam tarzıyla, açık bir şekilde, çok yönlü bir hatayla ilgili
+                            bir anlayışa sahip oldunuz.</p>
+                        <a href="{{route('appointment')}}" class="btn-yellow">Randevu Alın</a>
                     </div>
                 </div>
             </div>
@@ -97,8 +98,8 @@
                         <div class="feature-icon">
                             <img src="{{asset('assets/img/feature1.png')}}" alt="">
                         </div>
-                        <h4>Review Your <br>Medical Records</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem error.</p>
+                        <h4> tıbbi kayıtları<br>gözden geçirin</h4>
+                        <p>Tüm bu doğal hataların yanı sıra istemli hatanın da farkındasınız.</p>
                         <div class="feature-btn">
                             <a href="#"><i class="fas fa-chevron-right"></i></a>
                         </div>
@@ -109,8 +110,8 @@
                         <div class="feature-icon">
                             <img src="{{asset('assets/img/feature2.png')}}" alt="">
                         </div>
-                        <h4>Monthly Checkups <br>Available</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem error.</p>
+                        <h4>aylık kontroller <br>Mevcut</h4>
+                        <p>Tüm bu doğal hataların yanı sıra istemli hatanın da farkındasınız.</p>
                         <div class="feature-btn">
                             <a href="#"><i class="fas fa-chevron-right"></i></a>
                         </div>
@@ -121,8 +122,8 @@
                         <div class="feature-icon">
                             <img src="{{asset('assets/img/feature3.png')}}" alt="">
                         </div>
-                        <h4>Check Blood<br>Pressures</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem error.</p>
+                        <h4>kanı kontrol et<br>baskıla</h4>
+                        <p>Tüm bu doğal hataların yanı sıra istemli hatanın da farkındasınız.</p>
                         <div class="feature-btn">
                             <a href="#"><i class="fas fa-chevron-right"></i></a>
                         </div>
@@ -133,8 +134,8 @@
                         <div class="feature-icon">
                             <img src="{{asset('assets/img/feature4.png')}}" alt="">
                         </div>
-                        <h4>Well Qualified<br>Doctors</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem error.</p>
+                        <h4>İyi Nitelikli<br>Doktorlar</h4>
+                        <p>Tüm bu doğal hataların yanı sıra istemli hatanın da farkındasınız.</p>
                         <div class="feature-btn">
                             <a href="#"><i class="fas fa-chevron-right"></i></a>
                         </div>
@@ -145,8 +146,8 @@
                         <div class="feature-icon">
                             <img src="{{asset('assets/img/feature5.png')}}" alt="">
                         </div>
-                        <h4>24/7 Emergency<br>Helps</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem error.</p>
+                        <h4>7/24 Acil <br>Destekler</h4>
+                        <p>Tüm bu doğal hataların yanı sıra istemli hatanın da farkındasınız.</p>
                         <div class="feature-btn">
                             <a href="#"><i class="fas fa-chevron-right"></i></a>
                         </div>
@@ -167,24 +168,22 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="about-right">
-                        <h6>Caring for your teeth</h6>
-                        <h2>Your Teeth Plays An Important Role In Our Daily Routine</h2>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo, sed ut perspiciatis unde omnis iste natus
-                            error sit voluptatem accusantium.</p>
-                        <p>Ddoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et
-                            quasi architecto beatae vitae dicta sunt explicabo Sed ut perspiciatis unde omnis iste natus
-                            error sit voluptatem accusantium dolo remque laudantium, totam rem aperiam, eaque ipsa quae
-                            ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et
-                            quasi architecto beatae vitae dicta sunt explicabo, sed ut perspiciatis unde omnis iste
-                            natus error sit voluptatem accusantium dolo remque laudantium, totam rem aperiam, eaque ipsa
-                            quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo Sed
-                            ut perspi ciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo.</p>
+                        <h6>DİŞLERİNİZİN BAKIMI</h6>
+                        <h2>Dişleriniz Günlük Rutinimizde Önemli Bir Rol Oynuyor</h2>
+                        <p>Çok yönlü bir doğal hatanın, tam bir açıklayıcı bilgi olarak, tam bir gerçekliğe sahip
+                            olması, gerçek bir keşif verisi olması ve neredeyse açık bir şekilde hayat tarzının mimari
+                            olarak anlaşılması, çok sayıda doğal hatanın tam olarak ortaya çıkmasıyla ortaya çıkan bir
+                            anlayış.</p>
+                        <p>Çok iyi bir başarı, tam bir geri dönüş, her veri için bir mimari ve çok iyi bir yaşam tarzı
+                            açık bir şekilde açıklanmış ve her şeyde bir çok doğal hata varken, bir başkası da dahil
+                            olmak üzere tüm bu verilerle birlikte, tam bir veritatis ve benzeri bir veritatis ile
+                            birlikte yarı mimari güzel hayat, dikta güneş açıklayıcı.</p>
+                        <p class="mb-0">Çok yönlü bir doğal hata, tam bir açıklayıcı bilgi, tam bir gerçek hata, tüm
+                            verilerle birlikte gerçek bir mimari ve açık bir şekilde açıklanmış bir hayat hikayesi
+                            laudantyum, totam rem aperiam, eaque ipsa quae ab illo mucit veritatis ve quasi mimari güzel
+                            geçmiş hayat dikta sunt açıklayıcı Sed ut ut perspi ciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae a illo
+                            mucit veritatis ve yarı mimari güzel hayat çok açık bir söz.</p>
                     </div>
                 </div>
             </div>
@@ -205,17 +204,17 @@
                             <div class="row">
                                 <div class="col-12 col-lg-9">
                                     <div class="left">
-                                        <h6>Our Patient’s Stories</h6>
-                                        <h2>Testimonials</h2>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo, sed ut
-                                            perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                                        <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo Sed ut
-                                            perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo
-                                            remque la udantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt e xplicabo.</p>
+                                        <h6>Hastalarımızın Hikayeleri</h6>
+                                        <h2>Referanslar</h2>
+                                        <p>Çok yönlü bir doğal hatanın, tam bir açıklayıcı bilgi olarak, tam bir
+                                            gerçekliğe sahip olması, gerçek bir keşif verisi olması ve neredeyse açık
+                                            bir şekilde hayat tarzının mimari olarak anlaşılması, çok sayıda doğal
+                                            hatanın tam olarak ortaya çıkmasıyla ortaya çıkan bir anlayış.</p>
+                                        <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve nore
+                                            veritatis ve quasi mimari güzel yaşam tarzı açık bir şekilde açıklanıyor ve
+                                            her yerde bir çok şey için doğal bir hata var ve bu yüzden tam bir gerçek,
+                                            tam olarak gerçek bir veri, aynı ipsa ve neredeyse güzel bir yaşam mimarisi,
+                                            dikta ve xplicabo.</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-3">
@@ -238,17 +237,17 @@
                             <div class="row">
                                 <div class="col-12 col-lg-9">
                                     <div class="left">
-                                        <h6>Our Patient’s Stories</h6>
-                                        <h2>Testimonials</h2>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo, sed ut
-                                            perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                                        <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo Sed ut
-                                            perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo
-                                            remque la udantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt e xplicabo.</p>
+                                        <h6>Hastalarımızın Hikayeleri</h6>
+                                        <h2>Referanslar</h2>
+                                        <p>Çok yönlü bir doğal hatanın, tam bir açıklayıcı bilgi olarak, tam bir
+                                            gerçekliğe sahip olması, gerçek bir keşif verisi olması ve neredeyse açık
+                                            bir şekilde hayat tarzının mimari olarak anlaşılması, çok sayıda doğal
+                                            hatanın tam olarak ortaya çıkmasıyla ortaya çıkan bir anlayış.</p>
+                                        <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve nore
+                                            veritatis ve quasi mimari güzel yaşam tarzı açık bir şekilde açıklanıyor ve
+                                            her yerde bir çok şey için doğal bir hata var ve bu yüzden tam bir gerçek,
+                                            tam olarak gerçek bir veri, aynı ipsa ve neredeyse güzel bir yaşam mimarisi,
+                                            dikta ve xplicabo.</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-3">
@@ -271,17 +270,17 @@
                             <div class="row">
                                 <div class="col-12 col-lg-9">
                                     <div class="left">
-                                        <h6>Our Patient’s Stories</h6>
-                                        <h2>Testimonials</h2>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo, sed ut
-                                            perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                                        <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo Sed ut
-                                            perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo
-                                            remque la udantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt e xplicabo.</p>
+                                        <h6>Hastalarımızın Hikayeleri</h6>
+                                        <h2>Referanslar</h2>
+                                        <p>Çok yönlü bir doğal hatanın, tam bir açıklayıcı bilgi olarak, tam bir
+                                            gerçekliğe sahip olması, gerçek bir keşif verisi olması ve neredeyse açık
+                                            bir şekilde hayat tarzının mimari olarak anlaşılması, çok sayıda doğal
+                                            hatanın tam olarak ortaya çıkmasıyla ortaya çıkan bir anlayış.</p>
+                                        <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve nore
+                                            veritatis ve quasi mimari güzel yaşam tarzı açık bir şekilde açıklanıyor ve
+                                            her yerde bir çok şey için doğal bir hata var ve bu yüzden tam bir gerçek,
+                                            tam olarak gerçek bir veri, aynı ipsa ve neredeyse güzel bir yaşam mimarisi,
+                                            dikta ve xplicabo.</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-3">

@@ -8,11 +8,11 @@
                 <div class="col-12 col-lg-12">
                     <div class="section-header text-center">
                         <h6>Appointment</h6>
-                        <h2 class="text-white">Book An Appointment</h2>
-                        <p class="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                            quasi architecto beatae vitae dicta sunt explicabo, sed ut perspiciatis unde omnis iste
-                            natus error sit voluptatem accusantium.</p>
+                        <h2 class="text-white">Randevu Alın</h2>
+                        <p class="text-white">Çok yönlü bir doğal hatanın, tam bir açıklayıcı bilgi olarak, tam bir
+                            gerçekliğe sahip olması, gerçek bir keşif verisi olması ve neredeyse açık bir şekilde hayat
+                            tarzının mimari olarak anlaşılması, çok sayıda doğal hatanın tam olarak ortaya çıkmasıyla
+                            ortaya çıkan bir anlayış.</p>
                     </div>
                 </div>
             </div>
@@ -32,37 +32,37 @@
                                 <div class="row">
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="form-group">
-                                            <label>Name</label>
+                                            <label>İsminiz</label>
                                             <input type="text" class="form-control" name="name" id="name">
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="form-group">
-                                            <label>Email</label>
+                                            <label>Emailiniz</label>
                                             <input type="text" class="form-control" name="email" id="email">
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="form-group">
-                                            <label>Mobile Number</label>
+                                            <label>Telefon Numaranız</label>
                                             <input type="text" class="form-control" name="mobilphone" id="mobilphone">
                                         </div>
                                     </div>
 
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="form-group">
-                                            <label for="department">Select Department</label>
+                                            <label for="department">Departmanınızı seçiniz</label>
                                             <select class="form-control" id="department">
-                                                <option value="">Select Department</option>
+                                                <option value="">Departmanınızı seçiniz</option>
                                                 <!-- Departmanlar burada listelenecek -->
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="form-group">
-                                            <label for="doctor">Select Doctor</label>
+                                            <label for="doctor">Doktorunuzu Seçiniz</label>
                                             <select class="form-control" id="doctor" name="doctorname">
-                                                <option value="">Select Doctor</option>
+                                                <option value="">Doktorunuzu Seçiniz</option>
                                                 <!-- Doktorlar burada listelenecek -->
                                             </select>
                                         </div>
@@ -70,20 +70,20 @@
 
                                     <div class="col-12 col-md-3 col-lg-2">
                                         <div class="form-group">
-                                            <label>Time</label>
+                                            <label>Saat</label>
                                             <input type="time" class="form-control" name="time" id="time">
                                         </div>
                                     </div>
 
                                     <div class="col-12 col-md-3 col-lg-2">
                                         <div class="form-group mb-0">
-                                            <label>Date</label>
+                                            <label>Tarih</label>
                                             <input type="date" class="form-control" name="date" id="date">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-12 text-center">
-                                    <button href="#" class="btn-yellow" type="submit">Make an Appointment</button>
+                                    <button href="#" class="btn-yellow" type="submit">Randevu Alın</button>
                                 </div>
                             </div>
                         </div>
