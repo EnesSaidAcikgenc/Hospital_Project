@@ -23,7 +23,8 @@ Route::get('/appointment', [ProjectController::class, 'appointment'])->name('app
 Route::post('/addAppointment', [ProjectController::class, 'addAppointment'])->name('addAppointment');
 Route::get('/schedulestiming', [ProjectController::class, 'schedulestiming'])->name('schedulestiming');
 Route::get('/contact', [ProjectController::class, 'contact'])->name('contact');
-
+Route::get('/departments', [ProjectController::class, 'getDepartments'])->name('getDepartments');
+Route::get('/doctors/{departmentId}', [ProjectController::class, 'getDoctorsByDepartment'])->name('getDoctorsByDepartment');
 
 
 ////// Admin /////

@@ -33,4 +33,17 @@ class ProjectController extends Controller
     public function contact(){
         return view('projectPanel.pages.contact');
     }
+
+
+    public function getDepartments()
+    {
+        $departments = Department::all();
+        return response()->json($departments);
+    }
+
+    public function getDoctorsByDepartment($departmentId)
+    {
+        $department = Department::with('doctors')->findOrFail($departmentId);
+        return response()->json($department->doctors);
+    }
 }
