@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Route::get('/index', [ProjectController::class, 'index'])->name('index');
 Route::get('/appointment', [ProjectController::class, 'appointment'])->name('appointment');
+Route::post('/addAppointment', [ProjectController::class, 'addAppointment'])->name('addAppointment');
 Route::get('/schedulestiming', [ProjectController::class, 'schedulestiming'])->name('schedulestiming');
 Route::get('/contact', [ProjectController::class, 'contact'])->name('contact');
 
